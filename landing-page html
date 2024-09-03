@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.supercars.net/blog/wp-content/uploads/2019/12/Rossion-Cars-logo.png" height="100px"/>
+                Luxurious Cars
+                </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Buy Car</a>
+                <a href="#">Finace</a>
+                <a href="#">Insurance</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Contact</a>
+               
+            </div>
+        
+            <div class="register">
+                <a href="#">Register</a>
+            </div>
+            
+          
+        </nav>
+        <div class="Cars">
+            <img src="https://ik.imagekit.io/dwtrkflc4/Rally-Motors-Showroom_1MFjhRbkr.jpg?updatedAt=1690357226735.jpg" />
+            </div>
+        <section class="h-txt"> 
+            <span></span>
+            <h1> Experince the future of car rentals Modern Rent A Luxurious Cars</h1>
+            <br>
+            <a href="#">Explore Motors</a>
+            <br>
+            <br>
+            <details>
+                <summary>
+                    <div class="text"><h2>About Rally Motors</h2>
+                    <b>"Hi There, 
+                    The Rally Motors is one stop destination for
+                    <br>
+                    luxury and exotic supercars to upgrade your lifestyle.."</b>
+                </summary>
+                     <br>
+                     <p><h3>
+                    We are a one-stop shop to buy and sell premium pre-owned luxury cars with all the relevant information on financing, pricing,<br> insurance and vehicle valuation."
+This is a landing page concept for a Luxury Car Store. <br>Hope you guys like it. Let me know your thoughts. Your feedback and appreciation is always welcome 🙂
+                           </p>
+                        </h3>
+                    </div>
+            </details>
+        </section>
+        
+    </header>
+    <div class="Detail">
+    <a><h1>About us</h1></a>
+    <h2><a href="https://www.rallymotors.co.in/">rallymotors</a></h2>
+    <a href="#">Home</a>
+    </div>
+    <ul class="sci">
+        <li><a href="https://www.instagram.com/rallymotorsindia/"><img src="1658588801instagram-icon-png.png"></a></li>
+        <li><a href="https://www.facebook.com/rallymotorsindia"><img src="1713419302Black_Facebook_PNG.png"></a></li>
+    </ul>
+</body>                
+
+                
+            </div>
+            </div>
+        </nav>
+    </header>
+</body>
