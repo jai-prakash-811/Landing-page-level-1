@@ -1,0 +1,153 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+            header{
+                width: 100%;
+                height: 100vh;
+                background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('sofaa.jpg');
+                background-size:cover;
+                font-family:bookman-light;
+                background-image: url('wallpaperflare.com_wallpaper.jpg');
+                
+            }
+            nav{
+                width: 100%;
+                height: 15%;
+                color:white;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .logo{
+                font-size: 4em;
+                letter-spacing: 2px;
+                color: rgb(242, 10, 10);
+                font-family: Brush Script;
+            }
+            .menu a{
+                text-decoration: none;
+                color:rgb(163, 253, 7);
+                padding: 10px 20px;
+                font-size: 25px;
+                position: relative;
+                
+            }
+            .menu a:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                width: 0%;
+                height: 100%;
+                border-bottom: 3px solid indianred;
+                transition: 0.4s linear;
+                
+            }
+            .menu a:hover:before{
+                width: 90%;
+            }
+            .register a{
+                text-decoration: none;
+                color:white;
+                padding: 10px 20px;
+                font-size: 20px;
+                background:indianred;
+                border-radius: 6px;
+            }
+            .register a:hover{
+                background:transparent;
+                border: 3px solid indianred;
+                transition: 0.0s linear;
+            }
+           
+            
+           
+
+            .h-txt{
+                max-width: 650px;
+                position: absolute;
+                top: 55%;
+                left: 30%;
+                transform: translate(-50%,-50%);
+                text-align: left;
+                color:rgb(251, 11, 3);
+            
+            }
+            .h-txt  span{
+                letter-spacing: 6px;
+            }
+            .h-txt h1{
+                font-size: 3em;
+            }
+            .h-txt a{
+                text-decoration: none;
+                background: indianred;
+                color: white;
+                padding: 10px 20px;
+                letter-spacing: 5px;
+                border-radius: 8px;
+            }
+            .h-txt a:hover{
+                background:transparent;
+                border: 3px solid indianred;
+                transition: 0.0s linear;
+                
+            }
+            .p-txt a{
+            font-size: 20px;
+            letter-spacing: 5px;
+            }
+        .Cars{
+            width: 500px;
+            height: 400px;
+            top: 50%;
+            left: 80%;
+            transform: translate(-70%,-60%);
+            position: absolute;
+        }
+        .Cars img{
+            width: 400px;
+            height: 300px;
+        }
+        .Detail{
+            background-color: rgb(13, 13, 13);
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .sci{
+            display: flex;
+            justify-content: space-between;
+            width: 150px;
+            height: 40px;
+            top: 107%;
+            left: 98%;
+            transform: translate(-100%,-90%);
+            position: absolute;
+        }
+        .sci a{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            transform: rotate(45deg);
+            background: transparent;
+            border:2px solid transparent;
+            text-decoration: none;
+            transition: .5s;
+
+    
+        }
+
+        .sci a:hover{
+            border-color: rgb(0, 110, 255);
+        }
+        .sci a img{
+            width: 30px;
+            height: 30px;
+            color: rgb(0, 110, 255);
+            transform: rotate(-45deg);
+        }
+        .text{
+            color: rgb(247, 240, 235);
+            font-style: italic;;
+            font-size: 20px;
+            text-shadow: 2cm;
+        }
